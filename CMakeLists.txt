@@ -3,7 +3,11 @@ project(tp_fonctions C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(exo_1005 1005.c)
+add_executable(exo_1005 1005.c
+        rectangle.c
+        rectangle.h
+        triangle.c
+        triangle.h)
 
 add_executable(exo_1007 1007.c)
 
